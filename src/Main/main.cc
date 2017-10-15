@@ -101,7 +101,7 @@ void taskCmdListen(){
 }
 
 void taskSensorRead(){
-	reader->read();
+	reader->Read();
 	//serial << "read" << endl;
 	flags[2] = true;
 }
